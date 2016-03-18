@@ -11,7 +11,7 @@ export PATH
 fs_path='/fs'
 fs_bin='fs.jar'
 timestamp_path='/tmp/fs_restart_timestamp'
-debug_file='/root/fs_restart_debug'
+# debug_file='/root/fs_restart_debug'
 min_time=60 #min
 max_time=230 #min
 # 
