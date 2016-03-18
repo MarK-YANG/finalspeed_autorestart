@@ -43,7 +43,7 @@ fi
 fs_pid=`ps aux | grep $fs_bin | grep -v grep | gawk '{print $2}'`
 netstat -tunp | grep $fs_pid &> /dev/null
 resault=`echo $?`
-echo "[`date`]  test resault is $resault" >> $debug_file
+# echo "[`date`]  test resault is $resault" >> $debug_file
 
 if [ $resault -eq 1 ]
 then
